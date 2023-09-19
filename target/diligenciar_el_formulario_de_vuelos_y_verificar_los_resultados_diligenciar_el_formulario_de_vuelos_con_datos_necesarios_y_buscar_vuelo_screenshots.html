@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Prueba_de_automatizacion</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="feature_diligenciar_el_formulario_de_vuelos_y_verificar_los_resultados.html">Diligenciar El Formulario De Vuelos Y Verificar Los Resultados</a></span>
+                > <span class="truncate-60"><a
+                    href="diligenciar_el_formulario_de_vuelos_y_verificar_los_resultados_diligenciar_el_formulario_de_vuelos_con_datos_necesarios_y_buscar_vuelo.html">Diligenciar el formulario de vuelos con datos necesarios y buscar vuelo </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="requirement_type_feature.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-09-2023 18:38</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Diligenciar El Formulario De Vuelos Y Verificar Los Resultados </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="tag_buscarvuelos.html">Buscar Vuelos
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Diligenciar el formulario de vuelos con datos necesarios y buscar vuelo
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Dado que el usuario esta en la pagina de busqueda de vuelos<br>Cuando Diligencia el formulario de vuelos con los siguientes datos<br><table class='embedded'><thead><th>Origen</th><th>Destino</th></thead><tbody><tr><td>&lt;Origen&gt;</td><td>&lt;Destino&gt;</td></tr></tbody></table><br>Y hace clic en el boton buscar vuelos<br>Entonces espera y  muestra de resultados seleccionando el segundo vuelo disponible indicando que la prueba es exitosa</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="722b43827c36f0c378d8487bddabb485b818979f393eaada100c655e6152c422.png" title=" Example: {Origen=Bogota, Destino=Cali}" width="1366"/>
+                <img src="722b43827c36f0c378d8487bddabb485b818979f393eaada100c655e6152c422.png" title=" Dado que el usuario esta en la pagina de busqueda de vuelos" width="1366"/>
+                <img src="722b43827c36f0c378d8487bddabb485b818979f393eaada100c655e6152c422.png" title=" Usuario is abrir pagina" width="1366"/>
+                <img src="722b43827c36f0c378d8487bddabb485b818979f393eaada100c655e6152c422.png" title=" Usuario opens the Ui abrir pagina" width="1366"/>
+                <img src="e85a252a2a86618bd8297308e496aafb2314b93a0f7e6fdc29561bcb3bdc3be1.png" title=" Usuario clicks on Aceptar los cookies de la pagina web" width="1366"/>
+                <img src="e85a252a2a86618bd8297308e496aafb2314b93a0f7e6fdc29561bcb3bdc3be1.png" title=" Usuario is abrir pagina (completed)" width="1366"/>
+                <img src="e85a252a2a86618bd8297308e496aafb2314b93a0f7e6fdc29561bcb3bdc3be1.png" title=" Dado que el usuario esta en la pagina de busqueda de vuelos (completed)" width="1366"/>
+                <img src="3ebfa89924157458d03a399d20d25632d444df90f843f3fb430ce81ab2934d56.png" title=" Cuando Diligencia el formulario de vuelos con los siguientes datos
+| Origen | Destino |
+| Bogota | Cali |" width="1366"/>
+                <img src="3ebfa89924157458d03a399d20d25632d444df90f843f3fb430ce81ab2934d56.png" title=" Usuario ts diligenciar formulario" width="1366"/>
+                <img src="3ebfa89924157458d03a399d20d25632d444df90f843f3fb430ce81ab2934d56.png" title=" Usuario enters 'Bogota' into Ingresar el Origen del vuelo" width="1366"/>
+                <img src="8eb22b8c9c922ed209f1c3869a153101a9d6c8c1521905ba369de3c8a8d2d5a2.png" title=" Usuario enters 'Cali' into Ingresar el Destino del vuelo" width="1366"/>
+                <img src="8159d19643fd15021604373541f757762f9b6d72d1b27aad5679bb0f4ce4d01f.png" title=" Usuario clicks on Seleccionar la fecha de ida del vuelo" width="1366"/>
+                <img src="aebd94cee25934dacb32e16245ade6a3f0d75605a4db320be65a2113b1781287.png" title=" Usuario clicks on Seleccionar la fecha del vuelo" width="1366"/>
+                <img src="8e9e72808640847771a7cd53801a1d976457b6cbb5e31ac304c46521674f57cc.png" title=" Usuario clicks on Seleccionar la fecha del vuelo" width="1366"/>
+                <img src="8e9e72808640847771a7cd53801a1d976457b6cbb5e31ac304c46521674f57cc.png" title=" Usuario ts diligenciar formulario (completed)" width="1366"/>
+                <img src="8e9e72808640847771a7cd53801a1d976457b6cbb5e31ac304c46521674f57cc.png" title=" Cuando Diligencia el formulario de vuelos con los siguientes datos
+| Origen | Destino |
+| Bogota | Cali | (completed)" width="1366"/>
+                <img src="c13c261bb47a3bccab2c865cbafab764e081d6d653ebc1efd9277df92a9cee01.png" title=" Y hace clic en el boton buscar vuelos" width="1366"/>
+                <img src="c13c261bb47a3bccab2c865cbafab764e081d6d653ebc1efd9277df92a9cee01.png" title=" Usuario is buscar vuelos" width="1366"/>
+                <img src="c13c261bb47a3bccab2c865cbafab764e081d6d653ebc1efd9277df92a9cee01.png" title=" Usuario clicks on Bot&oacute;n para buscar el vuelo" width="1366"/>
+                <img src="c13c261bb47a3bccab2c865cbafab764e081d6d653ebc1efd9277df92a9cee01.png" title=" Usuario is buscar vuelos (completed)" width="1366"/>
+                <img src="e4a67c1257ec26f5bf11c182136fed28bb925404d6c5a23e8368bceae58d97e2.png" title=" Y hace clic en el boton buscar vuelos (completed)" width="1366"/>
+                <img src="94041bce8219cef219febdb04ba862aa509080fc642c6994b6fd3ec349fa3413.png" title=" Entonces espera y  muestra de resultados seleccionando el segundo vuelo disponible indicando que la prueba es exitosa" width="1366"/>
+                <img src="94041bce8219cef219febdb04ba862aa509080fc642c6994b6fd3ec349fa3413.png" title=" Usuario is seleccionar vuelo" width="1366"/>
+                <img src="94041bce8219cef219febdb04ba862aa509080fc642c6994b6fd3ec349fa3413.png" title=" Usuario clicks on Seleccionar El segundo vuelo" width="1366"/>
+                <img src="94041bce8219cef219febdb04ba862aa509080fc642c6994b6fd3ec349fa3413.png" title=" Usuario is seleccionar vuelo (completed)" width="1366"/>
+                <img src="94041bce8219cef219febdb04ba862aa509080fc642c6994b6fd3ec349fa3413.png" title=" Entonces espera y  muestra de resultados seleccionando el segundo vuelo disponible indicando que la prueba es exitosa (completed)" width="1366"/>
+                <img src="94041bce8219cef219febdb04ba862aa509080fc642c6994b6fd3ec349fa3413.png" title=" Example: {Origen=Bogota, Destino=Cali} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
