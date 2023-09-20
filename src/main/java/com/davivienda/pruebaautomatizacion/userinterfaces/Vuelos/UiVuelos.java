@@ -6,6 +6,10 @@ import net.thucydides.core.annotations.findby.By;
 
 public class UiVuelos extends PageObject {
 
+    /**
+     * PASO 1
+     * */
+
     public static Target InputOrigen = Target.the("Ingresar el Origen del vuelo")
             .located(By.id("origen_vue"));
     public static Target InputDestino = Target.the("Ingresar el Destino del vuelo")

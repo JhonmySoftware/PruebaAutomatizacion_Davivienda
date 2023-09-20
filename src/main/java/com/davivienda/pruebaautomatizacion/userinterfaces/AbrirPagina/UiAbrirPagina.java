@@ -8,6 +8,10 @@ import net.thucydides.core.annotations.findby.By;
 @DefaultUrl("https://www.atrapalo.com.co/")
 public class UiAbrirPagina extends PageObject {
 
+    /**
+     * PASO 1
+     * */
+
     public static Target Aceptarcookies = Target.the("Aceptar los cookies de la pagina web")
             .located(By.id("CybotCookiebotDialogBodyButtonAccept"));
 }

@@ -6,6 +6,10 @@ Este proyecto contiene la automatización de pruebas utilizando Java, Gradle y e
 
 Para clonar este repositorio a tu máquina local, utiliza el siguiente comando en tu terminal:
 
+
 ```bash
 git clone https://github.com/JhonmySoftware/PruebaAutomatizacion_Davivienda.git
+
+### Ejecutar el reporte con el siguiente comando:
+gradle clean test aggregate
 
