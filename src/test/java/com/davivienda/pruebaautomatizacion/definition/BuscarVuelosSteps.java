@@ -4,6 +4,7 @@ import com.davivienda.pruebaautomatizacion.interactions.AbrirPagina.IsAbrirPagin
 import com.davivienda.pruebaautomatizacion.interactions.BuscarVuelos.IsBuscarVuelos;
 import com.davivienda.pruebaautomatizacion.interactions.SeleccionarVuelo.IsSeleccionarVuelo;
 import com.davivienda.pruebaautomatizacion.models.MsVuelos;
+import com.davivienda.pruebaautomatizacion.questions.QsVerificarSeleccionVuelo;
 import com.davivienda.pruebaautomatizacion.tasks.TsDiligenciarFormulario;
 import cucumber.api.DataTable;
 import cucumber.api.java.Before;
@@ -11,8 +12,10 @@ import cucumber.api.java.es.Dado;
 import cucumber.api.java.es.Cuando;
 import cucumber.api.java.es.Entonces;
 import cucumber.api.java.es.Y;
+import net.serenitybdd.screenplay.GivenWhenThen;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
+import org.hamcrest.Matchers;
 
 import java.util.List;
 import java.util.Map;
@@ -45,11 +48,14 @@ public class BuscarVuelosSteps {
     @Y("^hace clic en el boton buscar vuelos$")
     public void haceClicEnElBotonBuscarVuelos() {
         OnStage.theActorCalled("usuario").wasAbleTo(IsBuscarVuelos.one());
+        OnStage.theActorCalled("usuario").wasAbleTo(IsSeleccionarVuelo.one());
     }
 
     @Entonces("^espera y  muestra de resultados seleccionando el segundo vuelo disponible indicando que la prueba es exitosa$")
     public void esperaYMuestraDeResultadosSeleccionandoElSegundoVueloDisponibleIndicandoQueLaPruebaEsExitosa() {
-        OnStage.theActorCalled("usuario").wasAbleTo(IsSeleccionarVuelo.one());
+        OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(QsVerificarSeleccionVuelo.one(),
+                Matchers.comparesEqualTo("Detalle de tu itinerario")));
+
     }
 
 

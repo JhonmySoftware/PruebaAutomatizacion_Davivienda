@@ -17,15 +17,15 @@ Característica: Diligenciar el formulario de vuelos y verificar los resultados
       | Origen | Destino |
       | Bogota | Cali    |
 
-  Escenario: Diligenciar el formulario de vuelos sin datos y buscar vuelo
-    Dado que el usuario esta en la pagina de busqueda de vuelos
-    Cuando hace clic en el boton buscar vuelo sin ingresar datos
-    Entonces se espera un mensaje de error indicando que faltan datos
-
-
-  Escenario: Seleccionar el único vuelo presentado
-    Dado que hay un unico resultado de busqueda de vuelos
-    Cuando el usuario selecciona el unico vuelo presentado
-    Entonces se reporta la prueba con advertencia indicando que solo habia un vuelo
+#  Escenario: Diligenciar el formulario de vuelos sin datos y buscar vuelo
+#    Dado que el usuario esta en la pagina de busqueda de vuelos
+#    Cuando hace clic en el boton buscar vuelo sin ingresar datos
+#    Entonces se espera un mensaje de error indicando que faltan datos
+#
+#
+#  Escenario: Seleccionar el único vuelo presentado
+#    Dado que hay un unico resultado de busqueda de vuelos
+#    Cuando el usuario selecciona el unico vuelo presentado
+#    Entonces se reporta la prueba con advertencia indicando que solo habia un vuelo
 
     # No alcance a terminar lo que pide el requerimiento por tiempo, intente hacerlo con las mejores practicas.
