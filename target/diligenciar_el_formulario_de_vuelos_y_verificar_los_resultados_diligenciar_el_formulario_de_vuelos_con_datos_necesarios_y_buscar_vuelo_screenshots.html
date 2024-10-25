@@ -132,7 +132,7 @@
             <a href="requirement_type_feature.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-09-2023 19:20</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 25-10-2024 16:44</span>
     <br style="clear:left"/>
 </div>
 
@@ -173,9 +173,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Diligenciar el formulario de vuelos con datos necesarios y buscar vuelo
+                                <span class="error-color">Diligenciar el formulario de vuelos con datos necesarios y buscar vuelo
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -196,40 +196,73 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element click intercepted exception: element click intercepted: Element (span class='aui-button__label')...(/span) is not clickable at point (1332, 10). Other element would receive the click: (div class='styles__ViewFlightWrapper-sc-1ejm4gi-3 hjzFmK')...(/div)</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.ElementClickInterceptedException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.davivienda.pruebaautomatizacion.interactions.SeleccionarVuelo.IsSeleccionarVuelo.performAs(IsSeleccionarVuelo.java:26)<br />com.davivienda.pruebaautomatizacion.definition.BuscarVuelosSteps.haceClicEnElBotonBuscarVuelos(BuscarVuelosSteps.java:51)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource3841443406499149943.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="722b43827c36f0c378d8487bddabb485b818979f393eaada100c655e6152c422.png" title=" Example: {Origen=Bogota, Destino=Cali}" width="1366"/>
-                <img src="722b43827c36f0c378d8487bddabb485b818979f393eaada100c655e6152c422.png" title=" Dado que el usuario esta en la pagina de busqueda de vuelos" width="1366"/>
-                <img src="722b43827c36f0c378d8487bddabb485b818979f393eaada100c655e6152c422.png" title=" Usuario is abrir pagina" width="1366"/>
-                <img src="722b43827c36f0c378d8487bddabb485b818979f393eaada100c655e6152c422.png" title=" Usuario opens the Ui abrir pagina" width="1366"/>
-                <img src="e85a252a2a86618bd8297308e496aafb2314b93a0f7e6fdc29561bcb3bdc3be1.png" title=" Usuario clicks on Aceptar los cookies de la pagina web" width="1366"/>
-                <img src="e85a252a2a86618bd8297308e496aafb2314b93a0f7e6fdc29561bcb3bdc3be1.png" title=" Usuario is abrir pagina (completed)" width="1366"/>
-                <img src="e85a252a2a86618bd8297308e496aafb2314b93a0f7e6fdc29561bcb3bdc3be1.png" title=" Dado que el usuario esta en la pagina de busqueda de vuelos (completed)" width="1366"/>
-                <img src="3ebfa89924157458d03a399d20d25632d444df90f843f3fb430ce81ab2934d56.png" title=" Cuando Diligencia el formulario de vuelos con los siguientes datos
+                <img src="6922db045f9fb0e0db175944334220cca93af43eebdbd602f1bdd527e29cb806.png" title=" Example: {Origen=Bogota, Destino=Cali}" width="1920"/>
+                <img src="6922db045f9fb0e0db175944334220cca93af43eebdbd602f1bdd527e29cb806.png" title=" Dado que el usuario esta en la pagina de busqueda de vuelos" width="1920"/>
+                <img src="6922db045f9fb0e0db175944334220cca93af43eebdbd602f1bdd527e29cb806.png" title=" Usuario is abrir pagina" width="1920"/>
+                <img src="6922db045f9fb0e0db175944334220cca93af43eebdbd602f1bdd527e29cb806.png" title=" Usuario opens the Ui abrir pagina" width="1920"/>
+                <img src="d31973301aec4053505675368128cf2680eb4574766e86d5aa03ad0690a8aaa0.png" title=" Usuario clicks on Aceptar los cookies de la pagina web" width="1920"/>
+                <img src="d31973301aec4053505675368128cf2680eb4574766e86d5aa03ad0690a8aaa0.png" title=" Usuario is abrir pagina (completed)" width="1920"/>
+                <img src="d31973301aec4053505675368128cf2680eb4574766e86d5aa03ad0690a8aaa0.png" title=" Dado que el usuario esta en la pagina de busqueda de vuelos (completed)" width="1920"/>
+                <img src="3181555aaf4cb20ceea15a8376986950d84859ff7ac69f9a39022fdfd85aa074.png" title=" Cuando Diligencia el formulario de vuelos con los siguientes datos
 | Origen | Destino |
-| Bogota | Cali |" width="1366"/>
-                <img src="3ebfa89924157458d03a399d20d25632d444df90f843f3fb430ce81ab2934d56.png" title=" Usuario ts diligenciar formulario" width="1366"/>
-                <img src="3ebfa89924157458d03a399d20d25632d444df90f843f3fb430ce81ab2934d56.png" title=" Usuario enters 'Bogota' into Ingresar el Origen del vuelo" width="1366"/>
-                <img src="8319ae67ce0b4230fcedae23bccf2ca2dcdc73b19ecb0b05fe1cb11c93dde9d2.png" title=" Usuario enters 'Cali' into Ingresar el Destino del vuelo" width="1366"/>
-                <img src="8159d19643fd15021604373541f757762f9b6d72d1b27aad5679bb0f4ce4d01f.png" title=" Usuario clicks on Seleccionar la fecha de ida del vuelo" width="1366"/>
-                <img src="495fc45317a896bbfa80281a508935275aa95883fa967d80e9bd92772bb5f8e3.png" title=" Usuario clicks on Seleccionar la fecha del vuelo" width="1366"/>
-                <img src="8e9e72808640847771a7cd53801a1d976457b6cbb5e31ac304c46521674f57cc.png" title=" Usuario clicks on Seleccionar la fecha del vuelo" width="1366"/>
-                <img src="8e9e72808640847771a7cd53801a1d976457b6cbb5e31ac304c46521674f57cc.png" title=" Usuario ts diligenciar formulario (completed)" width="1366"/>
-                <img src="8e9e72808640847771a7cd53801a1d976457b6cbb5e31ac304c46521674f57cc.png" title=" Cuando Diligencia el formulario de vuelos con los siguientes datos
+| Bogota | Cali |" width="1920"/>
+                <img src="3181555aaf4cb20ceea15a8376986950d84859ff7ac69f9a39022fdfd85aa074.png" title=" Usuario ts diligenciar formulario" width="1920"/>
+                <img src="3181555aaf4cb20ceea15a8376986950d84859ff7ac69f9a39022fdfd85aa074.png" title=" Usuario enters 'Bogota' into Ingresar el Origen del vuelo" width="1920"/>
+                <img src="6e842d2159b5ec86609f354fb272ff2ca60dfe7e6eabb6379db4ce688d5b3eca.png" title=" Usuario enters 'Cali' into Ingresar el Destino del vuelo" width="1920"/>
+                <img src="1d65ac39ea4bcf77808ebfb6dfb4d0175be3eb4dbc2eb320a433c17ec775f826.png" title=" Usuario clicks on Seleccionar la fecha de ida del vuelo" width="1920"/>
+                <img src="5b54eb4cbe8342a5a31e9eebb8e51e2867c77b9a82c6eaa49e3928d436f5de70.png" title=" Usuario clicks on Seleccionar la fecha del vuelo" width="1920"/>
+                <img src="d425b05e53003317837e9a75c5abe876a0aeb2aa664d8b362fe9482c86c388bc.png" title=" Usuario clicks on Seleccionar la fecha del vuelo" width="1920"/>
+                <img src="d425b05e53003317837e9a75c5abe876a0aeb2aa664d8b362fe9482c86c388bc.png" title=" Usuario ts diligenciar formulario (completed)" width="1920"/>
+                <img src="d425b05e53003317837e9a75c5abe876a0aeb2aa664d8b362fe9482c86c388bc.png" title=" Cuando Diligencia el formulario de vuelos con los siguientes datos
 | Origen | Destino |
-| Bogota | Cali | (completed)" width="1366"/>
-                <img src="076cd28a9e3220228f21ffc6b191b1ae0d43c9598b43e1a0a61e319e1144d3d4.png" title=" Y hace clic en el boton buscar vuelos" width="1366"/>
-                <img src="076cd28a9e3220228f21ffc6b191b1ae0d43c9598b43e1a0a61e319e1144d3d4.png" title=" Usuario is buscar vuelos" width="1366"/>
-                <img src="076cd28a9e3220228f21ffc6b191b1ae0d43c9598b43e1a0a61e319e1144d3d4.png" title=" Usuario clicks on Bot&oacute;n para buscar el vuelo" width="1366"/>
-                <img src="076cd28a9e3220228f21ffc6b191b1ae0d43c9598b43e1a0a61e319e1144d3d4.png" title=" Usuario is buscar vuelos (completed)" width="1366"/>
-                <img src="7ca740b1a438e6118d96a604037ff075a1a5eb403d70b60196177c1f9966230d.png" title=" Usuario is seleccionar vuelo" width="1366"/>
-                <img src="7ca740b1a438e6118d96a604037ff075a1a5eb403d70b60196177c1f9966230d.png" title=" Usuario clicks on Seleccionar El segundo vuelo" width="1366"/>
-                <img src="9976dd51dfc19e7137af0ca083edb563141979c234f784908326753618648bbe.png" title=" Usuario is seleccionar vuelo (completed)" width="1366"/>
-                <img src="9976dd51dfc19e7137af0ca083edb563141979c234f784908326753618648bbe.png" title=" Y hace clic en el boton buscar vuelos (completed)" width="1366"/>
-                <img src="9976dd51dfc19e7137af0ca083edb563141979c234f784908326753618648bbe.png" title=" Entonces espera y  muestra de resultados seleccionando el segundo vuelo disponible indicando que la prueba es exitosa" width="1366"/>
-                <img src="9976dd51dfc19e7137af0ca083edb563141979c234f784908326753618648bbe.png" title=" Then qs verificar seleccion vuelo should be a value equal to 'Detalle de tu itinerario'" width="1366"/>
-                <img src="9976dd51dfc19e7137af0ca083edb563141979c234f784908326753618648bbe.png" title=" Entonces espera y  muestra de resultados seleccionando el segundo vuelo disponible indicando que la prueba es exitosa (completed)" width="1366"/>
-                <img src="9976dd51dfc19e7137af0ca083edb563141979c234f784908326753618648bbe.png" title=" Example: {Origen=Bogota, Destino=Cali} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+| Bogota | Cali | (completed)" width="1920"/>
+                <img src="07d9f7c828dd64ad9d9906ab4e17a53f61b7ea558487dfa561022b3b19595e0b.png" title=" Y hace clic en el boton buscar vuelos" width="1920"/>
+                <img src="07d9f7c828dd64ad9d9906ab4e17a53f61b7ea558487dfa561022b3b19595e0b.png" title=" Usuario is buscar vuelos" width="1920"/>
+                <img src="07d9f7c828dd64ad9d9906ab4e17a53f61b7ea558487dfa561022b3b19595e0b.png" title=" Usuario clicks on Bot&oacute;n para buscar el vuelo" width="1920"/>
+                <img src="07d9f7c828dd64ad9d9906ab4e17a53f61b7ea558487dfa561022b3b19595e0b.png" title=" Usuario is buscar vuelos (completed)" width="1920"/>
+                <img src="ae96045522f9924112202c6298ba27b1c680524f4551b5bd9dbdf47317719cd6.png" title=" Usuario is seleccionar vuelo" width="1920"/>
+                <img src="ae96045522f9924112202c6298ba27b1c680524f4551b5bd9dbdf47317719cd6.png" title=" Usuario clicks on Seleccionar El segundo vuelo: <span class='error-color'>ERROR</span>" width="1920"/>
             </div>
         </div>
 

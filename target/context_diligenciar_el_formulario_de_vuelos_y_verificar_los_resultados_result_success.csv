@@ -1,4 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Diligenciar el formulario de vuelos y verificar los resultados","Diligenciar el formulario de vuelos con datos necesarios y buscar vuelo","SUCCESS","2023-09-19T19:00:29.119-05:00[America/Bogota]","0.0","53.99"
-"Diligenciar el formulario de vuelos y verificar los resultados","Diligenciar el formulario de vuelos sin datos y buscar vuelo","SUCCESS","2023-09-19T19:01:23.586-05:00[America/Bogota]","0.0","8.38"
-"Diligenciar el formulario de vuelos y verificar los resultados","Seleccionar el único vuelo presentado","SUCCESS","2023-09-19T19:01:32.166-05:00[America/Bogota]","0.0","0.81"
